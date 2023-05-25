@@ -1,0 +1,20 @@
+div.selector {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #ffe7f3;
+  overflow: hidden;
+}
+
+div.ineq {
+  padding: 4px 12px;
+}
+
+div.ineq:hover {
+  cursor: pointer;
+  background-color: #290014;
+}
+
+div.ineq.selected {
+  background-color: #ffe7f3;
+  color: #1c000c;
+}
