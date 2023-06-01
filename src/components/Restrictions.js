@@ -30,10 +30,10 @@ const Restriction = ({ values, handleChange, row }) => {
   );
 };
 
-const Restrictions = ({ handleChange, numberRest, matrix }) => {
+const Restrictions = ({ handleChange, matrix }) => {
   return (
     <div className="restrictions">
-      {[...Array(numberRest)].map((e, i) => (
+      {[...Array(matrix.length)].map((e, i) => (
         <Restriction
           key={i}
           handleChange={handleChange}
